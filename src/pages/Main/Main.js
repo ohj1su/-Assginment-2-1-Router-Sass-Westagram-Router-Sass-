@@ -2,7 +2,7 @@ import React from 'react';
 import "../Main/Main.css"
 
 
-const mainWrap = () => {
+const Main = () => {
     return(
 <>
     <nav class="nav_head">
@@ -60,4 +60,4 @@ const mainWrap = () => {
     );
 };
 
-export default mainWrap;
+export default Main;

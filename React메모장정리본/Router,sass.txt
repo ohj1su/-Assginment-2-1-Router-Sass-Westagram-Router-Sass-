@@ -1,0 +1,38 @@
+npm install react-router-dom = > npm install react-router-dom 설치
+
+package.json에서 확인 가능 -> src 파일 밑에 Router.js설치
+
+
+
+
+
+
+
+
+
+
+
+
+
+a태그 : 내가 만든 페이지가 아닌 외부페이지 쿠팡의 맨아래 페이스북 블로그 인스타그램(외부사이트)
+
+link컴퍼먼트 : 내가 만든 페이지안에서 이동할때 사용(내부사이트)
+
+
+hook : 외부 함수를 가져와서 사용한다, 
+
+
+link 와 hook의 차이점 : 컴퍼런트와 함수 차이 / 사용방법(link=to / usenavigate ->navigate) /
+			   사용시점( 누르면 바로감 vs 조건에 따라 움직임ex, 로그인떄)
+
+
+
+Sass
+
+
+
+
+과제
+
+-선행과제 -> repo -> issue
+-westagram 과제 -> 노션
