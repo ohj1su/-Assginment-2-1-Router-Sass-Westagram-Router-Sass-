@@ -36,3 +36,11 @@ Sass
 
 -선행과제 -> repo -> issue
 -westagram 과제 -> 노션
+
+
+2-1
+
+2-2
+
+1
+2
