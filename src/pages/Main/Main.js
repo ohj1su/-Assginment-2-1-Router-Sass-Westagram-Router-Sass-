@@ -4,21 +4,21 @@ import '../Main/Main.scss';
 const Main = () => {
   return (
     <>
-      <nav class="nav_head">
-        <div class="head_camera">
-          <img src="camera.png" width="10%" />
+      <nav className="main">
+        <div className="head_camera">
+          {/* <img src="camera.png" width="10%" /> */}
           <span>westagram</span>
         </div>
-        <button class="head_search">검색</button>
+        <button className="head_search">검색</button>
         <div>
-          <img src="explore.png" width="100%" class="head_explore" />
+          <img src="explore.png" width="100%" className="head_explore" />
         </div>
         <div>
-          <img src="heart.png" width="100%" class="head_heart" />
+          <img src="heart.png" width="100%" className="head_heart" />
         </div>
       </nav>
       <main>
-        <div class="div.feeds">
+        <div className="div.feeds">
           <article>
             <div />
             <div />
@@ -26,9 +26,9 @@ const Main = () => {
             <div />
           </article>
         </div>
-        <div class="div.main_right">
-          <div class="main_right_id" />
-          <div class="main_right_story">
+        <div className="div.main_right">
+          <div className="main_right_id" />
+          <div className="main_right_story">
             <ul>
               <span>스토리</span>
               <button>모두보기</button>
@@ -38,7 +38,7 @@ const Main = () => {
               <li>4</li>
             </ul>
           </div>
-          <div class="main_right_recommand">
+          <div className="main_right_recommand">
             <ul>
               <span>회원님을 위한 추천</span>
               <button>모두보기</button>
@@ -48,7 +48,7 @@ const Main = () => {
               <li>4</li>
             </ul>
           </div>
-          <div class="main_right_hongbo">
+          <div className="main_right_hongbo">
             <span>Instagram 정보/지원/홍보 센터/</span>
           </div>
         </div>
